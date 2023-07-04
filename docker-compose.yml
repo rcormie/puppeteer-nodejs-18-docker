@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+  app:
+    image: rcormie/puppeteer-nodejs-18:v1.0.0
+    volumes:
+      - ./app:/app
+      - /app/node_modules
+    working_dir: /app
+    command: node server.js
+    ports:
+      - 8080:8080

@@ -1,0 +1,14 @@
+{
+  "name": "puppeteer-nodejs-18",
+  "version": "1.0.0",
+  "description": "Puppeteer 20 Application Running On NodeJS 18 Slim",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^20.7.4"
+
+  }
+}
+
